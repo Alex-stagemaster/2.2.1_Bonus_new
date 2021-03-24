@@ -1,5 +1,6 @@
-public class BonusMileService {
-    public int calculate(int cost) {
-        return cost / 20 / 100;
+public class BonusMilesService {
+    public int calculate (int costTicket) {
+        int coef = 20;
+        return costTicket / coef;
     }
 }
